@@ -1,0 +1,16 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      default-zone: http:/localhost:8761/eureka
+
+spring:
+  cloud:
+    config:
+      override-system-properties: false
+
+application:
+  config:
+    todo-url: http://localhost:8282/api/v1/todo
+    tag-url: http://localhost:8282/api/v1/tag

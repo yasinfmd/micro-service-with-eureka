@@ -1,0 +1,10 @@
+application:
+  config:
+    todo-url: http://localhost:8282/api/v1/todo
+    tag-url: http://localhost:8282/api/v1/tag
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mydatabase
